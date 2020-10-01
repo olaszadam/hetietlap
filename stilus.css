@@ -1,0 +1,89 @@
+*{
+    font-family: 'Monotype Corsiva';
+    color: #000005
+}
+
+html {
+    background-color: #fff;
+    padding-top: 40px;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+    background-color: #eeff66;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.tart {
+    padding: 5px;    
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    background-color: red;
+    height: 3px;
+    border: none;
+}
+
+a:link {
+    color: blue;
+}
+
+.napok img {
+    width: 150px;
+    position: absolute;
+    right: 35px;
+    bottom: 5px;
+}
+
+.napok {
+    position: relative;
+    padding-left: 40px;
+}
+
+.arak {
+    position: relative;
+}
+
+#bal {
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    top: 10px;
+}
+
+#jobb {
+    position: absolute;
+    width: 150px;
+    right: 0px;
+    top: 10px;
+
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#torol {
+    text-decoration: line-through;
+}
+
+#dolgozok {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 12px;
+}
